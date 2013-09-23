@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input {
+	border: 0 none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+	text-align:left;
+}
+
+input::-moz-focus-inner {border:0;padding:0;}
+button::-moz-focus-inner {border:0;padding:0;}
+a {outline:none;border:none;font-weight:normal;text-decoration:none;}
+.clear { clear:both}
+html, body {height:100%;width:100%;}
+body {position:relative;color:#434b56;font-size:10px;font-family: Helvetica, Arial, sans-serif;background:#e4ebf4;background-position:left bottom;background-repeat:no-repeat;background-size:100%;}
+
+table{
+	border:0px;
+	border-collapse:collapse;
+}
+table td{padding:0px;}
+
+/* main page */
+body.home {background-image:url(bg-main.jpg);}
+.home .wrapper {height:100%;width:100%;background:url(logo-main.png) center 0 no-repeat;}
+.slogan {color:#003262;text-align:center;font-family:Helvetica, "Trebuchet MS", Arial, sans-serif;font-weight:bold;font-style:italic;font-size:1.8em;padding:170px 0 10px;text-shadow: 0px 1px 0px #fff;}
+a.lang {display:block;width:84%;height:58px;margin:7px 8%;
+background: #009ced;
+background: -moz-linear-gradient(top,  #009ced 0%, #016bc1 50%, #023a96 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ced), color-stop(50%,#016bc1), color-stop(100%,#023a96));
+background: -webkit-linear-gradient(top,  #009ced 0%,#016bc1 50%,#023a96 100%);
+background: -o-linear-gradient(top,  #009ced 0%,#016bc1 50%,#023a96 100%);
+background: linear-gradient(to bottom,  #009ced 0%,#016bc1 50%,#023a96 100%);
+border:1px solid #020202;
+border-radius:8px;
+}
+a.lang span {display:block;width:165px;height:58px;margin:0 auto;font-size:3em;line-height:58px;font-weight:bold;color:#fff;background-repeat:no-repeat;background-position:left center;background-size:contain;text-indent:70px;text-shadow: 0px -2px 1px #014e80;}
+a.lang span.en { background-image:url(lang-en.png);}
+a.lang span.no { background-image:url(lang-no.png);}
+
+
+/* inner page */
+body.inner {background-image:url(bg-inner.jpg);}
+.inner header {width:100%;height:44px;position:relative;text-align:center;
+background: #b9cbe4;
+background: -moz-linear-gradient(top,  #b9cbe4 0%, #7297c9 1%, #265fab 2%, #144988 50%, #013363 97%, #013363 98%, #000f1d 99%, #000f1d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b9cbe4), color-stop(1%,#7297c9), color-stop(2%,#265fab), color-stop(50%,#144988), color-stop(97%,#013363), color-stop(98%,#013363), color-stop(99%,#000f1d), color-stop(100%,#000f1d));
+background: -webkit-linear-gradient(top,  #b9cbe4 0%,#7297c9 1%,#265fab 2%,#144988 50%,#013363 97%,#013363 98%,#000f1d 99%,#000f1d 100%);
+background: -o-linear-gradient(top,  #b9cbe4 0%,#7297c9 1%,#265fab 2%,#144988 50%,#013363 97%,#013363 98%,#000f1d 99%,#000f1d 100%);
+background: linear-gradient(to bottom,  #b9cbe4 0%,#7297c9 1%,#265fab 2%,#144988 50%,#013363 97%,#013363 98%,#000f1d 99%,#000f1d 100%);
+}
+.inner header a.back {width:60px;height:34px;position:absolute;top:5px;left:3px;background:url(mmb-link.png) 0 0 no-repeat;}
+.current {height:44px;margin-left:65px;font-size:1.8em;line-height:44px;font-weight:bold;color:#fff;text-shadow: 0px -2px 1px #0e2f56;text-transform:uppercase;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.inner footer {width:100%;height:49px;position:absolute;bottom:0;left:0;
+background: #3d6287;
+background: -moz-linear-gradient(top,  #3d6287 0%, #3d6287 1%, #507fbc 2%, #3c6fb4 3%, #134886 50%, #003262 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d6287), color-stop(1%,#3d6287), color-stop(2%,#507fbc), color-stop(3%,#3c6fb4), color-stop(50%,#134886), color-stop(100%,#003262));
+background: -webkit-linear-gradient(top,  #3d6287 0%,#3d6287 1%,#507fbc 2%,#3c6fb4 3%,#134886 50%,#003262 100%);
+background: -o-linear-gradient(top,  #3d6287 0%,#3d6287 1%,#507fbc 2%,#3c6fb4 3%,#134886 50%,#003262 100%);
+background: linear-gradient(to bottom,  #3d6287 0%,#3d6287 1%,#507fbc 2%,#3c6fb4 3%,#134886 50%,#003262 100%);
+}
+.inner footer a {display:inline-block;position:absolute;top:2px;width:23%;height:44px;border:1px solid transparent;border-radius:5px;}
+.inner footer a:hover {border-color:#000;
+background: #023a96;
+background: -moz-linear-gradient(top,  #023a96 0%, #009cec 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#023a96), color-stop(100%,#009cec));
+background: -webkit-linear-gradient(top,  #023a96 0%,#009cec 100%);
+background: -o-linear-gradient(top,  #023a96 0%,#009cec 100%);
+background: linear-gradient(to bottom,  #023a96 0%,#009cec 100%);
+}
+.inner footer a span {display:block;width:100%;height:10px;padding-top:30px;font-size:1.1em;font-weight:bold;color:#fff;text-align:center;background-repeat:no-repeat;background-position:center 5px;text-shadow: 0px -2px 1px #014e80;}
+.inner footer a.home {left:1%;}
+.inner footer a.about {left:26%;}
+.inner footer a.contact {left:51%;}
+.inner footer a.mmb {left:76%;}
+.inner footer a.home span {background-image:url(ico-home.png);}
+.inner footer a.about span {background-image:url(ico-about.png);}
+.inner footer a.contact span {background-image:url(ico-contact.png);}
+.inner footer a.mmb span {background-image:url(ico-mmb.png);}
+
+.inner .wrapper {
+	position:absolute;
+	top:44px;
+	bottom:49px;
+	width:100%;
+	height:auto;
+	overflow:auto;
+	/*left: -6px;*/
+}
+nav a {display:block;min-height:40px;padding-top:5px;border:1px solid #72b9ff;border-width:0 1px 1px;color:#525c69;font-size:2em;font-weight:bold;line-height:35px;text-align:center;text-shadow: 0px 1px 1px #fff;
+-moz-box-shadow:inset 0px 0px 15px 15px rgba(123,180,234,0.25);
+-webkit-box-shadow:inset 0px 0px 15px 15px rgba(123,180,234,0.25);
+box-shadow:inset 0px 0px 15px 15px rgba(123,180,234,0.25);
+background-color: rgba(255, 255, 255, 0.5);
+}
+nav a:hover {background-color: rgba(255, 255, 255, 0.1);} 
+nav a:first-child {border-width:1px;}
+
+.content {padding:5px 5% 30px;color:#434b56;font-size:1.7em;text-shadow: 0px 1px 1px #fff;}
+.content img {border:1px solid #020202;}
+.logo {width:86px;height:37px;margin:6px auto 13px;background:url(logo.png) 0 0 no-repeat;}
+h1 {font-size:1.3em;font-weight:bold;margin:0.5em 0;text-align:center;text-transform:uppercase;}
+h2 {font-size:1.2em;font-weight:bold;margin:0.5em 0;text-transform:uppercase;}
+h3 {font-size:1.1em;font-weight:bold;margin:0.5em 0;}
+h4 {font-size:1.0em;font-weight:bold;margin:0.5em 0 0.2em;}
+h5 {font-size:1.1em;font-weight:bold;margin:0;}
+ul {margin: 0.5em 0 0.5em;}
+ul li {list-style-type:square;list-style-position:outside;margin-left:1.2em;}
+ol li {list-style-type:decimal;list-style-position:outside;margin-left:1.5em;}
+.right {float:right;}
+.red {color:#e2001a;}
+.green {color:#209302;}
+h5.red {color:#cc1223;}
+em {font-style:italic;}
+em.red {display:block;padding:0.2em 0.8em;margin:0.5em 0 0.2em;border:1px solid #e4bcc8;background-color:rgba(239, 185, 185, 0.2);}
+table {width:100%;margin:1em 0 1em;border:1px solid #b0b5bb;border-top:none;}
+table td {padding:0.5em 0.8em;border-top:1px solid #b0b5bb;background-color:rgba(255, 255, 255, 0.3);vertical-align:top;font-size:90%;}
+table th {padding:0.5em 0.8em;border-top:1px solid #b0b5bb;background-color:rgba(255, 255, 255, 0.3);vertical-align:top;font-weight:bold;text-transform:uppercase;}
+table td.noborder {padding-top:0;border-top:none;}
+h4 + table {margin-top:0;}
+img.noborder {border:none;}
+.aright {text-align:right;}
+.acenter {text-align:center;}
+.bold {font-weight:bold;}
+p {margin:1em 0;}
+div.blue {width:100%;margin:1em 0 1em;border:1px solid #466c92;}
+div.blue div {padding:0.5em 0.8em;border-top:1px solid #bbddff;border-bottom:1px solid #033668;background-color:#4596d5;color:#fefefe;text-shadow: 0px 1px 1px #4f6b84;}
+div.blue div:first-child {border-top:none;}
+div.blue div:last-child {border-bottom:none;}
+small {font-size:70%;}
+sup {font-size:50%;vertical-align:super;}
+strong {color:#434B56;}
